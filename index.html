@@ -1,0 +1,565 @@
+﻿<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="코인, 나스닥, ETF, 금까지 하나의 봇으로 운용하는 멀티자산 자동매매 서비스. OASIS에서 기본 전략부터 맞춤 전략까지 쉽게 시작하세요." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#2442ff" />
+    <meta name="application-name" content="OASIS" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="OASIS" />
+    <meta property="og:url" content="https://www.oasisbot24.com/" />
+    <meta property="og:title" content="OASIS | 코인·나스닥·금 자동매매" />
+    <meta property="og:description" content="코인, 나스닥, ETF, 금까지 하나의 봇으로 운용하는 멀티자산 자동매매 서비스. OASIS에서 기본 전략부터 맞춤 전략까지 쉽게 시작하세요." />
+    <meta property="og:image" content="https://www.oasisbot24.com/assets/oasis-og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="OASIS 코인, 나스닥, ETF, 금 자동매매 서비스 소개 이미지" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="OASIS | 코인·나스닥·금 자동매매" />
+    <meta name="twitter:description" content="코인, 나스닥, ETF, 금까지 하나의 봇으로 운용하는 멀티자산 자동매매 서비스. OASIS에서 기본 전략부터 맞춤 전략까지 쉽게 시작하세요." />
+    <meta name="twitter:image" content="https://www.oasisbot24.com/assets/oasis-og-image.png" />
+    <meta name="twitter:image:alt" content="OASIS 코인, 나스닥, ETF, 금 자동매매 서비스 소개 이미지" />
+    <link rel="canonical" href="https://www.oasisbot24.com/" />
+    <title>OASIS | 코인·나스닥·ETF·금 자동매매</title>
+    <link rel="icon" type="image/png" href="assets/oasis-favicon.png" />
+    <link rel="stylesheet" href="styles.css?v=20260507-bright-graph" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "OASIS",
+        "url": "https://www.oasisbot24.com/",
+        "description": "코인, 나스닥, ETF, 금까지 하나의 봇으로 운용하는 멀티자산 자동매매 서비스. OASIS에서 기본 전략부터 맞춤 전략까지 쉽게 시작하세요.",
+        "inLanguage": "ko-KR"
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#hero" aria-label="OASIS 홈">
+        <img src="assets/oasis-wordmark.png" alt="OASIS" />
+      </a>
+      <nav class="nav-links" aria-label="주요 메뉴">
+        <a href="#service">서비스 소개</a>
+        <a href="#difference">차별점</a>
+        <a href="#logic">로직 소개</a>
+        <a href="#plans">플랜</a>
+      </nav>
+      <a class="header-cta" href="https://cloud.oasisbot24.com/" target="_blank" rel="noopener noreferrer">오아시스 바로가기</a>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="section-kicker light">Multi-Asset Automation</p>
+            <h1>
+              코인부터<br />
+              미국주식, 금까지<br />
+              하나의 자동매매로
+            </h1>
+            <p>
+              오아시스는 코인모으기, 나스닥 대표 종목, 금 전략까지<br />
+              하나의 봇에서 선택하고 반복 실행하는 자동매매 서비스입니다.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="https://cloud.oasisbot24.com/" target="_blank" rel="noopener noreferrer">자동매매 시작하기 <span aria-hidden="true">&#8599;</span></a>
+              <a class="button ghost" href="#logic">로직 살펴보기</a>
+            </div>
+          </div>
+
+          <div class="hero-panel" aria-label="오아시스 자동매매 실시간 실행 타임라인">
+            <img class="hero-dashboard-bg" src="assets/bot-dashboard-full.png" alt="" aria-hidden="true" />
+            <div class="hero-panel-head">
+              <span>OASIS BOT</span>
+              <strong><i aria-hidden="true"></i>LIVE 실행중</strong>
+            </div>
+
+            <div class="execution-feed" aria-label="실시간 거래 실행 내역">
+              <div class="execution-feed-track">
+                <article class="execution-item take-profit">
+                  <time>14:47</time>
+                  <div>
+                    <strong>BTC 익절 완료</strong>
+                    <p>비트코인 공격 전략 · +₩4,500,000</p>
+                  </div>
+                  <span>익절</span>
+                </article>
+                <article class="execution-item entry">
+                  <time>14:50</time>
+                  <div>
+                    <strong>BTC 2회차 진입</strong>
+                    <p>평균단가 갱신 · ₩120,000,000</p>
+                  </div>
+                  <span>진입</span>
+                </article>
+                <article class="execution-item entry">
+                  <time>14:52</time>
+                  <div>
+                    <strong>BTC 1회차 진입</strong>
+                    <p>조건 감지 · ₩110,000,000</p>
+                  </div>
+                  <span>진입</span>
+                </article>
+                <article class="execution-item take-profit">
+                  <time>14:57</time>
+                  <div>
+                    <strong>GOLD 익절 완료</strong>
+                    <p>골드 안전 전략 · +₩2,242,000</p>
+                  </div>
+                  <span>익절</span>
+                </article>
+                <article class="execution-item entry">
+                  <time>14:59</time>
+                  <div>
+                    <strong>ETH 1회차 진입</strong>
+                    <p>이더리움 공격 전략 · Short</p>
+                  </div>
+                  <span>진입</span>
+                </article>
+                <article class="execution-item entry">
+                  <time>15:02</time>
+                  <div>
+                    <strong>TSLA 1회차 진입</strong>
+                    <p>미국주식 공격 전략 · ₩80,000,000</p>
+                  </div>
+                  <span>진입</span>
+                </article>
+                <article class="execution-item take-profit">
+                  <time>15:04</time>
+                  <div>
+                    <strong>BTC 익절 완료</strong>
+                    <p>비트코인 공격 전략 · +3.4%</p>
+                  </div>
+                  <span>익절</span>
+                </article>
+                <article class="execution-item take-profit">
+                  <time>15:09</time>
+                  <div>
+                    <strong>PLTR 익절 완료</strong>
+                    <p>미국주식 공격 전략 · +5.1%</p>
+                  </div>
+                  <span>익절</span>
+                </article>
+                <article class="execution-item take-profit" aria-hidden="true">
+                  <time>14:47</time>
+                  <div>
+                    <strong>BTC 익절 완료</strong>
+                    <p>비트코인 공격 전략 · +₩4,500,000</p>
+                  </div>
+                  <span>익절</span>
+                </article>
+                <article class="execution-item entry" aria-hidden="true">
+                  <time>14:50</time>
+                  <div>
+                    <strong>BTC 2회차 진입</strong>
+                    <p>평균단가 갱신 · ₩120,000,000</p>
+                  </div>
+                  <span>진입</span>
+                </article>
+                <article class="execution-item entry" aria-hidden="true">
+                  <time>14:52</time>
+                  <div>
+                    <strong>BTC 1회차 진입</strong>
+                    <p>조건 감지 · ₩110,000,000</p>
+                  </div>
+                  <span>진입</span>
+                </article>
+                <article class="execution-item take-profit" aria-hidden="true">
+                  <time>14:57</time>
+                  <div>
+                    <strong>GOLD 익절 완료</strong>
+                    <p>골드 안전 전략 · +₩2,242,000</p>
+                  </div>
+                  <span>익절</span>
+                </article>
+                <article class="execution-item entry" aria-hidden="true">
+                  <time>14:59</time>
+                  <div>
+                    <strong>ETH 1회차 진입</strong>
+                    <p>이더리움 공격 전략 · Short</p>
+                  </div>
+                  <span>진입</span>
+                </article>
+                <article class="execution-item entry" aria-hidden="true">
+                  <time>15:02</time>
+                  <div>
+                    <strong>TSLA 1회차 진입</strong>
+                    <p>미국주식 공격 전략 · ₩80,000,000</p>
+                  </div>
+                  <span>진입</span>
+                </article>
+                <article class="execution-item take-profit" aria-hidden="true">
+                  <time>15:04</time>
+                  <div>
+                    <strong>BTC 익절 완료</strong>
+                    <p>비트코인 공격 전략 · +3.4%</p>
+                  </div>
+                  <span>익절</span>
+                </article>
+                <article class="execution-item take-profit" aria-hidden="true">
+                  <time>15:09</time>
+                  <div>
+                    <strong>PLTR 익절 완료</strong>
+                    <p>미국주식 공격 전략 · +5.1%</p>
+                  </div>
+                  <span>익절</span>
+                </article>
+              </div>
+            </div>
+
+            <div class="hero-stat-grid">
+              <article>
+                <p>전략 운용 기간</p>
+                <strong>4년 +</strong>
+              </article>
+              <article>
+                <p>누적 거래 횟수</p>
+                <strong>50,000,00+</strong>
+              </article>
+            </div>
+            <p class="hero-panel-note">예시 이미지로 실제 화면과 다를 수 있습니다.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="service" id="service">
+        <div class="section-head">
+          <p class="section-kicker">Service Overview</p>
+          <h2>서비스 소개</h2>
+          <p>
+            오아시스는 코인 자동매매에 머무르지 않습니다.<br />
+            코인모으기부터 애플, 테슬라, 팔란티어, QQQ, 금 종목까지 전략 기반으로 운용합니다.
+          </p>
+        </div>
+
+        <div class="service-bot-showcase" aria-label="코인 모으기와 알고리즘 봇 운용 화면 예시">
+          <article class="bot-cinema coin-cinema">
+            <div class="bot-cinema-head">
+              <span>코인 모으기</span>
+              <strong>회차별 정기매수가 쌓이는 흐름</strong>
+            </div>
+            <div class="coin-flow" aria-hidden="true">
+              <img class="coin-history-bg" src="assets/service-coin-collect-1.png" alt="" />
+              <div class="coin-history-card">
+                <div class="coin-history-head">
+                  <span>₿</span>
+                  <div>
+                    <strong>비트코인 모으기</strong>
+                    <p>총 10회차</p>
+                  </div>
+                </div>
+                <div class="coin-round-viewport">
+                  <div class="coin-round-list">
+                    <div class="coin-round">
+                      <i></i>
+                      <div>
+                        <strong>1회차</strong>
+                        <time>26.04.28</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round">
+                      <i></i>
+                      <div>
+                        <strong>2회차</strong>
+                        <time>26.04.29</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round">
+                      <i></i>
+                      <div>
+                        <strong>3회차</strong>
+                        <time>26.04.30</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round">
+                      <i></i>
+                      <div>
+                        <strong>4회차</strong>
+                        <time>26.05.01</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round">
+                      <i></i>
+                      <div>
+                        <strong>5회차</strong>
+                        <time>26.05.02</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round">
+                      <i></i>
+                      <div>
+                        <strong>6회차</strong>
+                        <time>26.05.03</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round">
+                      <i></i>
+                      <div>
+                        <strong>7회차</strong>
+                        <time>26.05.04</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round">
+                      <i></i>
+                      <div>
+                        <strong>8회차</strong>
+                        <time>26.05.05</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round">
+                      <i></i>
+                      <div>
+                        <strong>9회차</strong>
+                        <time>26.05.06</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round">
+                      <i></i>
+                      <div>
+                        <strong>10회차</strong>
+                        <time>26.05.07</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round" aria-hidden="true">
+                      <i></i>
+                      <div>
+                        <strong>1회차</strong>
+                        <time>26.04.28</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round" aria-hidden="true">
+                      <i></i>
+                      <div>
+                        <strong>2회차</strong>
+                        <time>26.04.29</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round" aria-hidden="true">
+                      <i></i>
+                      <div>
+                        <strong>3회차</strong>
+                        <time>26.04.30</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                    <div class="coin-round" aria-hidden="true">
+                      <i></i>
+                      <div>
+                        <strong>4회차</strong>
+                        <time>26.05.01</time>
+                      </div>
+                      <p><b>100,000원</b><span>0.001 BTC</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="coin-gain-summary">
+                  <div>
+                    <span>누적 매수</span>
+                    <strong>1,000,000원</strong>
+                  </div>
+                  <div>
+                    <span>보유 수량</span>
+                    <strong>0.010 BTC</strong>
+                  </div>
+                  <div class="gain">
+                    <span>평가 수익</span>
+                    <strong>+12.8%</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bot-caption">
+              <b>정기매수</b>
+              <span>회차 누적</span>
+              <span>보유 수량 증가</span>
+            </div>
+          </article>
+
+          <article class="bot-cinema algo-cinema">
+            <div class="bot-cinema-head">
+              <span>알고리즘 봇</span>
+              <strong>데이터 기반 수익률 상위 포트폴리오</strong>
+            </div>
+            <div class="algo-flow" aria-hidden="true">
+              <div class="algo-portfolio-stage">
+                <div class="portfolio-rank-list">
+                  <article class="portfolio-rank-card">
+                    <strong>시가총액 TOP10</strong>
+                    <span>직전 3년 수익률</span>
+                    <b>+189.54%</b>
+                    <div class="portfolio-assets">
+                      <i>₿</i>
+                      <i>Ξ</i>
+                      <i>X</i>
+                      <em>+7</em>
+                    </div>
+                  </article>
+                  <article class="portfolio-rank-card">
+                    <strong>비트코인 이더리움 듀오</strong>
+                    <span>직전 3년 수익률</span>
+                    <b>+180.93%</b>
+                    <div class="portfolio-assets">
+                      <i>₿</i>
+                      <i>Ξ</i>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="bot-caption">
+              <b>수익률 랭킹</b>
+              <span>전략 비교</span>
+              <span>포트폴리오 선택</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="partners" aria-label="제휴사 및 연동 거래소">
+          <p>제휴사 및 연동 거래소</p>
+          <div class="partner-logos">
+            <img class="partner-logo okx" src="assets/partners/okx.svg" alt="OKX" />
+            <img class="partner-logo bithumb" src="assets/partners/bithumb.png" alt="bithumb" />
+            <img class="partner-logo ksnet" src="assets/partners/ksnet.png" alt="KSNET" />
+            <img class="partner-logo parameta" src="assets/partners/parameta.png" alt="PARAMETA" />
+          </div>
+        </div>
+      </section>
+
+      <section class="difference" id="difference">
+        <div class="difference-graph">
+          <div class="difference-graph-copy">
+            <p class="section-kicker">Why OASIS</p>
+            <h2>OASIS가 다른 이유</h2>
+            <p>
+              가격, 운용 데이터, 결제 승인, 거래소 연동까지.
+              자동매매를 시작하기 전에 확인해야 할 기준을 한 화면에 담았습니다.
+            </p>
+          </div>
+
+          <div class="trust-graph" aria-label="오아시스 차별점 그래프">
+            <svg class="trust-lines" viewBox="0 0 900 560" aria-hidden="true">
+              <path class="trust-line line-one" d="M450 282 L232 126 L128 286 L226 452 Z" />
+              <path class="trust-line line-two" d="M450 282 L684 110 L772 290 L662 452 Z" />
+              <path class="trust-line line-three" d="M450 282 L232 126 M450 282 L684 110 M450 282 L128 286 M450 282 L772 290 M450 282 L226 452 M450 282 L662 452" />
+            </svg>
+
+            <div class="trust-center">
+              <img src="assets/medal-logo-cutout.png" alt="오아시스 검증된 자동매매를 상징하는 메달 오브젝트" />
+            </div>
+
+            <article class="trust-node node-price">
+              <span>월 정기결제</span>
+              <strong>59,000원</strong>
+            </article>
+            <article class="trust-node node-years">
+              <span>운용 데이터</span>
+              <strong>4년</strong>
+            </article>
+            <article class="trust-node node-assets">
+              <span>멀티 자산</span>
+              <strong>코인 · 나스닥 · ETF · 금</strong>
+            </article>
+            <article class="trust-node node-card">
+              <span>결제 신뢰</span>
+              <strong>모든 카드사 승인</strong>
+            </article>
+            <article class="trust-node node-exchange">
+              <span>거래소 연동</span>
+              <strong>빗썸 · OKX</strong>
+            </article>
+            <article class="trust-node node-free">
+              <span>시작 장벽</span>
+              <strong>무료 시작</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="logic" id="logic">
+        <div class="section-head">
+          <p class="section-kicker">Logic Framework</p>
+          <h2>로직 소개</h2>
+          <p>DCA와 TD_Sequential 기반 로직으로 시장을 예측하기보다, 정해진 조건을 반복 실행합니다.</p>
+        </div>
+
+        <div class="logic-video">
+          <video src="assets/oasis-dca-martin.mp4" autoplay muted loop playsinline preload="metadata"></video>
+        </div>
+
+        <div class="logic-grid">
+          <article>
+            <span>DCA</span>
+            <h3>분할 매수 기반 누적 전략</h3>
+            <p>가격 변동 구간에서 조건에 따라 분할 진입하고<br />평균 단가를 조정해 포지션 부담을 낮춥니다.</p>
+          </article>
+          <article>
+            <span>TD_Sequential</span>
+            <h3>시장 과열과 전환 신호 추적</h3>
+            <p>추세의 피로도와 전환 가능성을 조건화해,<br />실행 판단을 자동화합니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="plans" id="plans">
+        <div class="section-head centered">
+          <p class="section-kicker">Plans</p>
+          <h2>플랜 소개</h2>
+          <p>무료로 먼저 시작하고, 더 많은 봇과 맞춤 전략이 필요할 때 Premium으로 확장할 수 있습니다.</p>
+        </div>
+        <div class="plan-grid">
+          <article>
+            <p>FREE</p>
+            <h3>무료</h3>
+            <span>코인모으기 + 알고리즘 봇 1개</span>
+            <small>코인, 나스닥, ETF, 금 모두 운용할 수 있으며<br />기본 제공 전략으로 실행됩니다.</small>
+          </article>
+          <article class="featured">
+            <p>PREMIUM</p>
+            <h3>Premium</h3>
+            <span>코인모으기 + 알고리즘 봇 8개</span>
+            <small>코인, 나스닥, ETF, 금 모두 운용 가능하며<br />투자 성향에 맞춘 전략을 만들 수 있습니다.</small>
+          </article>
+          <article>
+            <p>GUIDE</p>
+            <h3>어떤 플랜이 맞을까요?</h3>
+            <span>무료로 검증 후 Premium 확장</span>
+            <small>처음에는 기본 전략으로 흐름을 확인하고,<br />운용 자산과 전략 수가 늘어날 때 Premium을 선택하세요.</small>
+          </article>
+        </div>
+        <div class="plans-cta">
+          <a class="button primary" href="https://cloud.oasisbot24.com/" target="_blank" rel="noopener noreferrer">오아시스 바로가기 <span aria-hidden="true">&#8599;</span></a>
+        </div>
+      </section>
+
+      <footer class="site-footer" id="footer">
+        <div>
+          <a class="brand footer-brand" href="#hero">
+            <img src="assets/oasis-logo-transparent.png" alt="OASIS" />
+          </a>
+        </div>
+        <a class="footer-cta" href="https://cloud.oasisbot24.com/" target="_blank" rel="noopener noreferrer">서비스 시작하기 <span aria-hidden="true">&#8599;</span></a>
+        <p class="copyright">2026 Copyright @ OASIS</p>
+      </footer>
+    </main>
+
+    <script src="script.js?v=20260507-refined"></script>
+  </body>
+</html>
+
