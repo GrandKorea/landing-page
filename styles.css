@@ -185,6 +185,10 @@ p {
   line-height: 1.7;
 }
 
+.hero-line {
+  display: inline;
+}
+
 .hero-copy,
 .hero-panel,
 .bot-cinema {
@@ -1514,15 +1518,40 @@ p {
     padding: 112px 18px 56px;
   }
 
+  .service {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
   .hero h1 {
     font-size: 44px;
   }
 
+  .hero-description {
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 1.78;
+    word-break: keep-all;
+    overflow-wrap: normal;
+  }
+
+  .hero-line {
+    display: block;
+  }
+
+  .hero-desktop-break {
+    display: none;
+  }
+
   .hero-panel,
-  .bot-cinema,
   .logic-grid article,
   .plan-grid article {
     padding: 22px;
+  }
+
+  .bot-cinema {
+    padding: 16px;
+    border-radius: 20px;
   }
 
   .hero-panel {
@@ -1624,7 +1653,94 @@ p {
 
   .coin-flow,
   .algo-flow {
-    height: 300px;
+    height: 320px;
+    border-radius: 16px;
+  }
+
+  .coin-history-card {
+    inset: 14px 12px 14px;
+    padding: 13px 12px 14px;
+    border-radius: 18px;
+  }
+
+  .coin-history-card::after {
+    right: 12px;
+    bottom: 82px;
+    left: 12px;
+  }
+
+  .coin-history-head {
+    gap: 10px;
+    min-height: 36px;
+    margin-bottom: 8px;
+  }
+
+  .coin-history-head > span {
+    width: 34px;
+    height: 34px;
+    font-size: 18px;
+  }
+
+  .coin-history-head div {
+    gap: 8px;
+  }
+
+  .coin-history-head strong {
+    min-width: 0;
+    font-size: 15px;
+  }
+
+  .coin-history-head p {
+    font-size: 11px;
+  }
+
+  .coin-round-viewport {
+    height: calc(100% - 116px);
+  }
+
+  .coin-round {
+    grid-template-columns: 8px minmax(58px, 1fr) minmax(74px, auto);
+    gap: 7px;
+    min-height: 50px;
+  }
+
+  .coin-round i {
+    width: 8px;
+    height: 8px;
+  }
+
+  .coin-round strong,
+  .coin-round b {
+    font-size: 12px;
+  }
+
+  .coin-round time,
+  .coin-round span {
+    margin-top: 3px;
+    font-size: 10px;
+  }
+
+  .coin-gain-summary {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    gap: 4px;
+    padding: 10px 9px;
+    border-radius: 14px;
+  }
+
+  .coin-gain-summary span {
+    font-size: 10px;
+  }
+
+  .coin-gain-summary strong {
+    font-size: clamp(10px, 2.8vw, 12px);
+    white-space: normal;
+    word-break: keep-all;
+  }
+
+  .coin-gain-summary .gain strong {
+    font-size: clamp(13px, 3.6vw, 16px);
   }
 
   .algo-portfolio-stage {
@@ -1673,4 +1789,169 @@ p {
     white-space: normal;
   }
 
+}
+
+@media (max-width: 430px) {
+  .service {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+  .service .section-head h2 {
+    font-size: 32px;
+  }
+
+  .service .section-head > p:not(.section-kicker) {
+    font-size: 15px;
+  }
+
+  .bot-cinema {
+    padding: 12px;
+  }
+
+  .bot-cinema-head {
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .bot-cinema-head strong {
+    font-size: 15px;
+  }
+
+  .coin-flow,
+  .algo-flow {
+    height: 318px;
+  }
+
+  .coin-history-card {
+    inset: 12px 10px;
+    padding: 12px 10px 13px;
+  }
+
+  .coin-history-head strong {
+    font-size: 14px;
+  }
+
+  .coin-round {
+    grid-template-columns: 7px minmax(54px, 1fr) minmax(68px, auto);
+    gap: 6px;
+  }
+
+  .coin-round p {
+    min-width: 0;
+  }
+
+  .coin-round b {
+    overflow-wrap: anywhere;
+  }
+
+  .coin-gain-summary {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) minmax(0, 0.8fr);
+    right: 10px;
+    left: 10px;
+    padding: 9px 8px;
+  }
+
+  .coin-gain-summary span,
+  .coin-gain-summary strong {
+    line-height: 1.2;
+  }
+
+  .algo-portfolio-stage {
+    inset: 12px;
+    padding: 14px;
+  }
+
+  .portfolio-rank-list {
+    width: 100%;
+  }
+
+  .portfolio-rank-card {
+    min-height: 82px;
+    padding: 14px;
+  }
+
+  .portfolio-rank-card strong {
+    max-width: calc(100% - 82px);
+    font-size: 15px;
+    line-height: 1.25;
+  }
+
+  .portfolio-rank-card span {
+    margin-top: 9px;
+    font-size: 12px;
+  }
+
+  .portfolio-rank-card b {
+    font-size: 17px;
+  }
+
+  .portfolio-assets {
+    right: 14px;
+    bottom: 14px;
+  }
+
+  .portfolio-assets i,
+  .portfolio-assets em {
+    width: 27px;
+    height: 27px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 374px) {
+  .service {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .bot-cinema {
+    padding: 10px;
+  }
+
+  .coin-history-card {
+    inset: 10px 8px;
+  }
+
+  .coin-history-head > span {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .coin-history-head strong {
+    font-size: 13px;
+  }
+
+  .coin-history-head p {
+    font-size: 10px;
+  }
+
+  .coin-round {
+    grid-template-columns: 6px minmax(48px, 1fr) minmax(62px, auto);
+    gap: 5px;
+  }
+
+  .coin-round strong,
+  .coin-round b {
+    font-size: 11px;
+  }
+
+  .coin-round time,
+  .coin-round span {
+    font-size: 9px;
+  }
+
+  .coin-gain-summary {
+    gap: 3px;
+    padding: 8px 7px;
+  }
+
+  .coin-gain-summary strong {
+    font-size: 10px;
+  }
+
+  .coin-gain-summary .gain strong {
+    font-size: 12px;
+  }
 }
