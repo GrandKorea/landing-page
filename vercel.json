@@ -1,0 +1,48 @@
+{
+  "redirects": [
+    {
+      "source": "/start",
+      "destination": "https://cloud.oasisbot24.com/",
+      "permanent": false
+    },
+    {
+      "source": "/start/",
+      "destination": "https://cloud.oasisbot24.com/",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/service",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/service/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/difference",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/difference/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/logic",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/logic/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/plans",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/plans/",
+      "destination": "/index.html"
+    }
+  ]
+}
