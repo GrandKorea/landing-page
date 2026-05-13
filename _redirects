@@ -2,3 +2,13 @@ https://oasisbot365.com/* https://www.oasisbot365.com/:splat 301!
 http://oasisbot365.com/* https://www.oasisbot365.com/:splat 301!
 https://oasisbot24.com/* https://www.oasisbot365.com/:splat 301!
 http://oasisbot24.com/* https://www.oasisbot365.com/:splat 301!
+/service /index.html 200
+/service/ /index.html 200
+/difference /index.html 200
+/difference/ /index.html 200
+/logic /index.html 200
+/logic/ /index.html 200
+/plans /index.html 200
+/plans/ /index.html 200
+/start https://cloud.oasisbot24.com/ 302
+/start/ https://cloud.oasisbot24.com/ 302
