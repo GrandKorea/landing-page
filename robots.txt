@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.oasisbot24.com/sitemap.xml
+Sitemap: https://www.oasisbot365.com/sitemap.xml
